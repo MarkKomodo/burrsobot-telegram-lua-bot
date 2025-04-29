@@ -27,7 +27,7 @@ function module.loadCommands()
 end
 
 function module.loadTranslation()
-	g_locale[LANG_US]["example-desc"] = "Displaya cake"
+	g_locale[LANG_US]["example-desc"] = "Display a cake"
 	g_locale[LANG_BR]["example-desc"] = "Mostra um bolo"
 end
 

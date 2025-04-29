@@ -159,8 +159,8 @@ end
 
 
 function joinlock.loadTranslation()
-	g_locale[LANG_US]["joinlock-command-helper"] = "Make users be locked upon joining until an admin releases it."
-	g_locale[LANG_BR]["joinlock-command-helper"] = "Faz novos usuários ficarem bloqueados de mandar mensagens até que um admin desbloqueie."	
+	g_locale[LANG_US]["joinlock-command-helper"] = "Lock users upon joining until an admin releases them."
+	g_locale[LANG_BR]["joinlock-command-helper"] = "Novos usuários não poderão mandar mensagens até que um admin os desbloqueiem."	
 
 	g_locale[LANG_US]["joinlock-release"] = "Release user"
 	g_locale[LANG_BR]["joinlock-release"] = "Liberar usuário"
@@ -168,14 +168,14 @@ function joinlock.loadTranslation()
 	g_locale[LANG_US]["joinlock-ban"] = "Ban user"
 	g_locale[LANG_BR]["joinlock-ban"] = "Banir usuário"
 
-	g_locale[LANG_US]["joinlock-onlyadm"] = "Sorry, thats only for chat admin"
-	g_locale[LANG_BR]["joinlock-onlyadm"] = "Desculpa, só admins do chat."
+	g_locale[LANG_US]["joinlock-onlyadm"] = "Sorry, this command is reserved for groupchat admins only."
+	g_locale[LANG_BR]["joinlock-onlyadm"] = "Desculpa, esse comando só pode ser usado por admins do grupo."
 
-	g_locale[LANG_US]["joinlock-no-u"] = "Sorry, only chat admins can release you"
-	g_locale[LANG_BR]["joinlock-no-u"] = "Desculpa, só admins do chat podem te liberar"
+	g_locale[LANG_US]["joinlock-no-u"] = "Sorry, this command is reserved for groupchat admins only."
+	g_locale[LANG_BR]["joinlock-no-u"] = "Desculpa, esse comando só pode ser usado por admins do grupo."
 
-	g_locale[LANG_US]["joinlock-message"] = "Hello %s! You need permissions of a chat admin to use this chat. Dont worry, eventually some admin will come to rescue you and release you.\n\nAttention admins %s this user needs to be released."
-	g_locale[LANG_BR]["joinlock-message"] = "Olá %s. Você precisa da autorização de um administrador do chat para poder enviar mensagens aqui. Não se preocupe, assim que um admin aparecer  para te resgatar e liberar você.\n\nAtenção admins %s, esse user precisa ser liberado."
+	g_locale[LANG_US]["joinlock-message"] = "Hello %s! You need the approval of a groupchat's admin to send messages. Dont worry, eventually some admin will come to rescue you and release you.\n\nAttention admins %s this user needs to be released."
+	g_locale[LANG_BR]["joinlock-message"] = "Olá %s. Você precisa da autorização de um administrador do grupo para poder enviar mensagens. Não se preocupe, eventualmente um admin vai aparecer para te resgatar e liberar você.\n\nAtenção admins %s, esse usuário precisa ser liberado."
 
 end
 

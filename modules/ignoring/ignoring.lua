@@ -108,11 +108,11 @@ function ignoring.loadTranslation()
 	g_locale[LANG_BR]["ignoring-blocked"] = "<b>ignorado</b>"
 
 
-	g_locale[LANG_BR]["ignored-desc"] = "Faz com que o bot (eu), ignore um usuário nesse chat. Basta usar /ignore @username ou responder com o comando a mensagem"
-	g_locale[LANG_US]["ignored-desc"] = "Make me ignore a user in this chat. Just use /ignore @username or reply with the command the message of the user."
+	g_locale[LANG_BR]["ignored-desc"] = "Faz com que o bot (eu), ignore um usuário nesse chat. Basta usar /ignore @username ou responder com o comando na mensagem"
+	g_locale[LANG_US]["ignored-desc"] = "Make me ignore a user in this chat. Just use /ignore @username or reply with the command to the user's message."
 
-	g_locale[LANG_BR]["ignored-g-desc"] = "Faz com que o bot (eu), globalmente!. Basta usar /block @username ou responder com o comando a mensagem"
-	g_locale[LANG_US]["ignored-g-desc"] = "Make me ignore a user globally. Just use /block @username or reply with the command the message of the user."
+	g_locale[LANG_BR]["ignored-g-desc"] = "Faz com que o bot (eu), ignore um usuário globalmente. Basta usar /block @username ou responder com o comando na mensagem"
+	g_locale[LANG_US]["ignored-g-desc"] = "Make me ignore a user globally. Just use /block @username or reply with the command to the user's message."
 
 
 
